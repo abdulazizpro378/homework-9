@@ -1,0 +1,69 @@
+nav {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+.nav-center a {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-style: normal;
+  padding: 0 27px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.nav-item a {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin-left: 25px;
+  padding: 5px 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.nav-center a:hover {
+    text-decoration: underline;
+    color: #01BAB3;
+
+    
+}
+
+
+
+.menu {
+  display: none;
+}
+
+@media (max-width:810px) {
+  .nav {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .card {
+    margin: 0 auto;
+   padding: 0 15px;
+  }
+
+  
+}

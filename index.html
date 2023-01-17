@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="icon" href="./images/zzz.svg" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>First steep</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container navbar">
+          <div class="navbar-right">
+            <img src="./logo.png" alt="logo" />
+          </div>
+
+          <div class="navbar-end">
+            <ul class="nav">
+              <li class="nav-center"><a href="#">Services</a></li>
+              <li class="nav-center"><a href="#trend">About </a></li>
+              <li class="nav-center"><a href="#">Contacts</a></li>
+              <li class="nav-item"><a href="./second.html">Log in</a></li>
+              <li class="nav-item"><a href="./login.html">Open an account</a></li>
+              <li class="nav-item"><a href="#">EN</a></li>
+            </ul>
+          </div>
+          <div class="menu">
+            <img src="../images/menu.svg" alt="menu" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <sect ion id="trend">
+        <div class="container trent-top">
+          <div class="card">
+            <div class="card-top">
+              <div class="img">
+                <img src="./logo.png" alt="logo2" />
+              </div>
+              <div class="content">
+                <h1>Welcome to ByTrend!</h1>
+                <p>Already have an account?</p>
+                <a href="./second.html">Log in</a>
+              </div>
+            </div>
+
+            <form action="./login.html" autocomplete="off">
+              <div class="form-top">
+                <div class="form-left">
+                  <label for="firt">First name <span>*</span></label>
+                  <input type="text" id="firt" value="Alexander" required />
+                </div>
+
+                <div class="form-right">
+                  <label for="name">Last name <span>*</span></label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Your surname"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="data">
+                <label for="Birth ">Birth date <span>*</span></label>
+                <input type="date" id="Birth " required />
+              </div>
+              <p>Gender <span>*</span></p>
+              <div class="gender">
+                <div class="gender-left">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="famil"
+                    id="famil"
+                    required
+                  />
+                  <label for="famil">Female</label>
+                </div>
+
+                <div class="gender-end">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    id="male"
+                    required
+                  />
+                  <label for="male">Male</label>
+                </div>
+              </div>
+
+              <div class="skype">
+                <label for="sky">Skype <span>*</span></label>
+                <input
+                  type="text"
+                  name="Skype"
+                  id="sky"
+                  required
+                  placeholder="Your login Skype"
+                />
+              </div>
+
+              <div class="promo">
+                <label for="pro">Promo <span>*</span></label>
+                <input
+                  type="text"
+                  id="pro"
+                  name="pro"
+                  required
+                  placeholder="Your promo"
+                />
+              </div>
+
+              <button type="submit" class="btn">
+                Continue <img src="./images/yonalish.svg" alt="bu" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </sect>
+    </main>
+
+    <footer class="pusk-btn">
+      <div class="container lorem">
+        <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+      </div>
+    </footer>
+  </body>
+</html>
